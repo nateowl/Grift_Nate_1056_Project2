@@ -119,3 +119,84 @@ p {
    transform: translate(-50%, -50%);
    box-shadow: 5px 5px 10px #00000033;
 }
+
+.values {
+   position: relative;
+   text-align: left;
+}
+
+.brewery__quote {
+   letter-spacing: 6px;
+   color: #404040;
+   font-size: 30px;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.beer {
+   text-align: center;
+   border-bottom: none;
+   margin-top: 100px;
+   margin-bottom: 0px;
+}
+
+.beer__con {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+}
+
+.columns__2 {
+   width: 270px;
+   border: 1px solid #707070;
+   padding: 30px;
+}
+
+.columns__2 li {
+   margin-bottom: 25px;
+   font-size: 20px;
+   color: #707070;
+}
+
+.display__beers {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.display__beers img {
+   width: 150px;
+   height: 150px;
+   margin: 30px;
+   margin-top: 80px;
+   border: 1px solid #707070;
+}
+
+.contact {
+   white-space: pre-line;
+}
+
+.contact h2 {
+   width: 50%;
+}
+
+.contact__bottom {
+   text-align: center;
+   color: #404040;
+   font-size: 15px;
+   font-weight: normal;
+   width: 300px;
+   margin: 20px auto;
+   border-right: 5px solid #707070;
+   border-left: 5px solid #707070;
+}
+
+.address {
+   font-size: 30px;
+   font-weight: bold;
+   line-height: 50px;
+}
