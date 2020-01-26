@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/* CSS DOCUMENt */
+
+html {
+   width: 1280px;
+   margin: 0 auto;
+   font-family: 'Crimson Text', Helvetica, serif;
+}
+
+.hidden {
+   display: none;
+}
+
+header {
+   height: 150px;
+   background: transparent linear-gradient(266deg, #909090 0%, #535050 100%) 0% 0% no-repeat padding-box;
+   -webkit-clip-path: polygon(0 0, 100% 0, 100% 50px, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50px, 0 100%);
+}
+
+header > img {
+   height: 88px;
+   margin: 20px;
+}
+
+main {
+   width: 820px;
+   margin: 0 auto;
+}
+
+h2 {
+   font-size: 30px;
+   letter-spacing: 0;
+   font-weight: 700;
+   color: #404040;
+   padding-bottom: 20px;
+   margin: 30px 0;
+   border-bottom: 2px solid #404040;
+}
+
+h4 {
+   font-size: 30px;
+   letter-spacing: 10px;
+   text-transform: uppercase;
+   font-weight: 600;
+   color: #707070;
+   padding: 30px;
+   border: 3px solid #707070;
+   text-align: center;
+   width: 500px;
+}
+
+p {
+   text-align: left;
+   font-size: 20px;
+   letter-spacing: 0;
+   color: #707070;
+   font-weight: 100;
+   margin-bottom: 30px;
+}
+
+.paragraph::first-letter {
+   font-size: 30px;
+   font-weight: bold;
+}
+
+.paragraph__title {
+   font-size: 24px;
+   font-weight: bold;
+   letter-spacing: 2px;
+   line-height: 24px;
+   color: #707070;
+   margin: 70px 0px 20px 0px;
+}
+
+.contact__quote {
+   font-size: 20px;
+   letter-spacing: 0;
+   font-weight: 400;
+   color: #404040;
+   padding: 10px;
+   margin: 50px 25px;
+   border-right: 5px solid #404040;
+   border-left: 5px solid #404040;
+   text-align: center;
+}
+
+.contact__quote span {
+   font-size: 24px;
+}
+
+.why {
+   margin-top: 150px;
+}
+
+.slogan {
+   width: 100%;
+   height: 300px;
+   position: relative;
+}
+
+.slogan img {
+   box-shadow: 5px 5px 10px #00000033;
+   border: 2px solid #707070;
+   height: 170px;
+   display:inline-block;
+   position: absolute;
+   top: 100px;
+   left: 0%;
+   z-index: 5;
+   transform: translate(0, -50%);
+}
+
+.slogan h4 {
+   position: absolute;
+   top: 100px;
+   left: 65%;
+   z-index: 1;
+   transform: translate(-50%, -50%);
+   box-shadow: 5px 5px 10px #00000033;
+}
